@@ -479,6 +479,8 @@ button {
     width: 100%;
     border: none;
     outline: none;
+    font-size: 18px;
+    line-height: 21px;
     padding: 20px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     font-family: inherit;
@@ -491,8 +493,9 @@ button {
     color: #1B1818;
 }
 .questions__input:focus {
-    
-    border-bottom: 1px solid #C5AC2D
+    border-bottom: 1px solid #C5AC2D;
+    padding-bottom: 5px;
+    padding-top: 35px;
 }
 .questions__button {
     background-color: #C5AC2D;
