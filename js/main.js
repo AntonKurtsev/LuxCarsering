@@ -6,4 +6,12 @@ $(document).ready(function(){
         dots: true,
         arrows: false,
     });
+
+    $('.reviews__slider').slick({
+        autoplay: true,
+        dots: true,
+        arrows: false,
+        slidesToShow: 4,
+        slidesToScroll: 4
+    });
 });
